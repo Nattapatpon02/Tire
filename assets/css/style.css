@@ -133,7 +133,8 @@ tbody {
 
 .card .pic {
     border-radius: 1vh;
-    height: 27vh;
+    height: 28vh;
+    width: 100%;
     background-color: #eee;
     margin-bottom: 12px;
     display: flex;
