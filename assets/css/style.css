@@ -15,6 +15,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .nav .icon {
@@ -36,14 +37,16 @@ body {
 
 .container {
     padding-top: 9vh;
+    margin-bottom: 2.5vh;
 
 }
 
 .content {
-    max-width: 1440px;
+    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
     overflow-y: auto;
+
 
 }
 
@@ -101,6 +104,8 @@ tbody {
 }
 
 .card-content {
+    margin: 0 auto;
+    max-width: 1600px;
     width: 100%;
     overflow-y: auto;
 }
@@ -115,6 +120,7 @@ tbody {
 
     padding: 1.5vh;
 }
+
 
 .card {
 
@@ -140,6 +146,8 @@ tbody {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .card .pic img {
@@ -147,6 +155,8 @@ tbody {
     margin: 0 auto;
     width: 100%;
     border-radius: 1vh;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .card .store-name {
