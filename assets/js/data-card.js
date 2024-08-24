@@ -17,7 +17,7 @@ function populateCards(data) {
 
         const phone = document.createElement('div');
         phone.className = 'phone';
-        phone.innerHTML = `Phone: ${item.phone}`;
+        phone.innerHTML = `เบอร์ติดต่อ: ${item.phone}`;
 
         const price = document.createElement('div');
         price.className = 'price';
