@@ -1,0 +1,161 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav {
+    padding: 1.5vh;
+    margin: 0 auto;
+    background-color: #05385a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav .icon {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2vh;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 1vh;
+    width: fit-content;
+}
+
+.nav hr {
+    width: 10vh;
+    border: .25vh solid #fff;
+    margin: 0 auto;
+    border-radius: 1vh;
+}
+
+.container {
+    padding-top: 9vh;
+
+}
+
+.content {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: auto;
+
+}
+
+.table-content {
+    padding: 0 1vh;
+}
+
+.table-tire {
+    width: max-content;
+    background-color: rgb(0, 0, 0, .05);
+    border-radius: 1vh;
+    padding: 1.5vh 1vh;
+    margin: 0 auto;
+
+
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: max-content;
+
+    border-radius: 1vh;
+
+
+}
+
+table tr {}
+
+table th {
+    text-align: center;
+    font-size: 2vh;
+    padding: 0.2vh 2vh;
+    border-bottom: .2vh solid #05385a;
+    color: rgb(219, 0, 0);
+
+}
+
+table td {
+
+    padding: 0.2vh 2vh;
+    text-align: left;
+    vertical-align: baseline;
+    font-size: 2.1vh;
+    border-bottom: .2vh solid #05385a;
+
+
+}
+
+tbody {
+    tr:nth-child(even) {
+        background-color: rgba(5, 56, 90, 0.719);
+        color: #fff;
+    }
+}
+
+.card-content {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    justify-content: center;
+    margin: 1.5vh auto;
+    width: max-content;
+
+    padding: 1.5vh;
+}
+
+.card {
+
+    border: 1px solid #ddd;
+    border-radius: 1vh;
+    padding: 16px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all .2s ease;
+}
+
+.card:hover {
+    scale: 1.02;
+}
+
+.card .pic {
+    border-radius: 1vh;
+    height: 26vh;
+    background-color: #eee;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .pic img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 1vh;
+}
+
+.card .store-name {
+    font-size: 2vh;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card .phone,
+.card .price {
+    margin-bottom: 8px;
+    font-size: 2vh;
+}
